@@ -1,0 +1,44 @@
+DockerComposeSrc:
+  keywords: >
+    build image
+  highlight_link: Repeat
+
+DockerComposeCtx:
+  keywords: >
+    context dockerfile args
+  highlight_link: Repeat
+
+DockerComposeRef:
+  keywords: >
+    cgroup_parent container_name depends_on extends
+  highlight_link: Repeat
+
+DockerComposeCap:
+  keywords: >
+    cap_add cap_drop 
+  highlight_link: Repeat
+
+DockerComposeExt:
+  keywords: >
+    ports devices tmpfs expose
+  highlight_link: Repeat
+
+DockerComposeNet:
+  keywords: >
+    networks dns dns_search extra_hosts external_links extra_hosts
+  highlight_link: Structure
+
+DockerComposeRun:
+  keywords: >
+    entrypoint command env_file
+  highlight_link: Statement
+
+DockerComposeEtc:
+  keywords: >
+    aliases 
+  highlight_link: StorageClass
+
+# DockerComposeDelimiter:
+#   keywords: >
+#     : 
+#   highlight_link: StorageClass

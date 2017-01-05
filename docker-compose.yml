@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  generator:
+    build: .
+    volumes:
+      - .:/mnt
+    command: ["sh", "/usr/src/app/run.sh"]
+    
